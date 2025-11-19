@@ -154,7 +154,8 @@
 
   <windowSwitcher show="yes" preview="yes" outlines="yes" allWorkspaces="no">
     <fields>
-      <field content="title" width="100%" />
+      <field content="icon" width="5%" />
+      <field content="title" width="95%" />
     </fields>
   </windowSwitcher>
 

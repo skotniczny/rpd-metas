@@ -1,3 +1,9 @@
+rpd-metas (1.13) trixie; urgency=medium
+
+  * Add icons to labwc task switcher
+
+ -- Simon Long <simon@raspberrypi.com>  Mon, 17 Nov 2025 14:33:39 +0000
+
 rpd-metas (1.12) trixie; urgency=medium
 
   * Remove pulseaudio
