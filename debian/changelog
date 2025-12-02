@@ -1,3 +1,9 @@
+rpd-metas (1.14) trixie; urgency=medium
+
+  * Add Alt-F2 run shortcut to labwc
+
+ -- Simon Long <simon@raspberrypi.com>  Tue, 02 Dec 2025 10:14:37 +0000
+
 rpd-metas (1.13) trixie; urgency=medium
 
   * Add icons to labwc task switcher

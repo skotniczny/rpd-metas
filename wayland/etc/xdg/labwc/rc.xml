@@ -111,6 +111,11 @@
          <command>swaylock -p</command>
       </action>
     </keybind>
+    <keybind key="A-F2">
+      <action name="Execute">
+        <command>wfpanelctl smenu run</command>
+      </action>
+    </keybind>
   </keyboard>
 
   <mouse>
