@@ -194,6 +194,9 @@
 		<Menuname>Help</Menuname>
 		<Separator/>
 		<Menuname>DesktopSettings</Menuname>
+		<Separator/>
+		<Filename>gtk-run.desktop</Filename>
+		<Filename>pishutdown.desktop</Filename>
 	</Layout>
 
 </Menu> <!-- End Applications -->
