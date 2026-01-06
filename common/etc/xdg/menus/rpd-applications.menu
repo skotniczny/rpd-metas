@@ -195,7 +195,8 @@
 		<Separator/>
 		<Menuname>DesktopSettings</Menuname>
 		<Separator/>
-		<Filename>gtk-run.desktop</Filename>
+		<Filename>gui-runcmd.desktop</Filename>
+		<Separator/>
 		<Filename>pishutdown.desktop</Filename>
 	</Layout>
 
