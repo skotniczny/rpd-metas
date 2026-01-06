@@ -113,7 +113,7 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>wfpanelctl smenu run</command>
+        <command>gui-runcmd</command>
       </action>
     </keybind>
   </keyboard>
