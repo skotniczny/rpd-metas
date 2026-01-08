@@ -177,6 +177,11 @@
 
 	</Menu> <!-- End Settings -->
 
+	<Include>
+		<Filename>gui-runcmd.desktop</Filename>
+		<Filename>pishutdown.desktop</Filename>
+	</Include>
+
 	<Layout>
 		<Menuname>Development</Menuname>
 		<Menuname>Education</Menuname>
