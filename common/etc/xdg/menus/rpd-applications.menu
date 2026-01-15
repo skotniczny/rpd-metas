@@ -15,7 +15,7 @@
 
 	<!-- Accessories submenu -->
 	<Menu>
-		<Name>Accessories</Name>
+		<Name>Utility</Name>
 		<Directory>rpd-utility.directory</Directory>
 		<Include>
 			<Category>Utility</Category>
@@ -42,7 +42,7 @@
 
 	<!-- Games -->
 	<Menu>
-		<Name>Games</Name>
+		<Name>Game</Name>
 		<Directory>rpd-game.directory</Directory>
 		<Include>
 			<Category>Game</Category>
@@ -60,7 +60,7 @@
 
 	<!-- Internet -->
 	<Menu>
-		<Name>Internet</Name>
+		<Name>Network</Name>
 		<Directory>rpd-network.directory</Directory>
 		<Include>
 			<Category>Network</Category>
@@ -69,7 +69,7 @@
 
 	<!-- Multimedia -->
 	<Menu>
-		<Name>Multimedia</Name>
+		<Name>AudioVideo</Name>
 		<Directory>rpd-audio-video.directory</Directory>
 		<Include>
 			<Category>AudioVideo</Category>
@@ -124,7 +124,7 @@
 	</Menu>	 <!-- End System Tools -->
 
 	<Menu>
-		<Name>DesktopSettings</Name>
+		<Name>Settings</Name>
 		<Directory>rpd-settings.directory</Directory>
 		<Include>
 			<Category>Settings</Category>
@@ -141,19 +141,19 @@
 		<Menuname>Education</Menuname>
 		<Menuname>Science</Menuname>
 		<Menuname>Office</Menuname>
-		<Menuname>Internet</Menuname>
-		<Menuname>Multimedia</Menuname>
+		<Menuname>Network</Menuname>
+		<Menuname>AudioVideo</Menuname>
 		<Menuname>Graphics</Menuname>
-		<Menuname>Games</Menuname>
+		<Menuname>Game</Menuname>
 		<Menuname>Other</Menuname>
 		<Menuname>System</Menuname>
-		<Menuname>Accessories</Menuname>
+		<Menuname>Utility</Menuname>
 		<Merge type="files"/>
 		<Merge type="menus"/>
 		<Separator/>
 		<Menuname>Help</Menuname>
 		<Separator/>
-		<Menuname>DesktopSettings</Menuname>
+		<Menuname>Settings</Menuname>
 		<Separator/>
 		<Filename>gui-runcmd.desktop</Filename>
 		<Separator/>
