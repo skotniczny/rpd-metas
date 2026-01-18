@@ -4,7 +4,7 @@
 <Menu>
 
 	<Name>Applications</Name>
-	<Directory>lxde-menu-applications.directory</Directory>
+	<Directory>rpd-applications.directory</Directory>
 
 	<!-- Read standard .directory and .desktop file locations -->
 	<DefaultAppDirs/>
@@ -13,95 +13,101 @@
 	<!-- Read in overrides and child menus from applications-merged/ -->
 	<DefaultMergeDirs/>
 
-	<!-- Accessories submenu -->
-	<Menu>
-		<Name>Utility</Name>
-		<Directory>rpd-utility.directory</Directory>
-		<Include>
-			<Category>Utility</Category>
-		</Include>
-	</Menu> <!-- End Accessories -->
-
-	<!-- Development Tools -->
-	<Menu>
-		<Name>Development</Name>
-		<Directory>rpd-development.directory</Directory>
-		<Include>
-			<Category>Development</Category>
-		</Include>
-	</Menu> <!-- End Development Tools -->
-
-	<!-- Education -->
-	<Menu>
-		<Name>Education</Name>
-		<Directory>rpd-education.directory</Directory>
-		<Include>
-			<Category>Education</Category>
-		</Include>
-	</Menu> <!-- End Education -->
-
-	<!-- Games -->
-	<Menu>
-		<Name>Game</Name>
-		<Directory>rpd-game.directory</Directory>
-		<Include>
-			<Category>Game</Category>
-		</Include>
-	</Menu> <!-- End Games -->
-
-	<!-- Graphics -->
-	<Menu>
-		<Name>Graphics</Name>
-		<Directory>rpd-graphics.directory</Directory>
-		<Include>
-			<Category>Graphics</Category>
-		</Include>
-	</Menu> <!-- End Graphics -->
-
-	<!-- Internet -->
-	<Menu>
-		<Name>Network</Name>
-		<Directory>rpd-network.directory</Directory>
-		<Include>
-			<Category>Network</Category>
-		</Include>
-	</Menu>	 <!-- End Internet -->
-
-	<!-- Multimedia -->
 	<Menu>
 		<Name>AudioVideo</Name>
 		<Directory>rpd-audio-video.directory</Directory>
 		<Include>
 			<Category>AudioVideo</Category>
 		</Include>
-	</Menu>	 <!-- End Multimedia -->
+	</Menu>
 
-	<!-- Office -->
+	<Menu>
+		<Name>Development</Name>
+		<Directory>rpd-development.directory</Directory>
+		<Include>
+			<Category>Development</Category>
+		</Include>
+	</Menu>
+
+	<Menu>
+		<Name>Education</Name>
+		<Directory>rpd-education.directory</Directory>
+		<Include>
+			<Category>Education</Category>
+		</Include>
+	</Menu>
+
+	<Menu>
+		<Name>Game</Name>
+		<Directory>rpd-game.directory</Directory>
+		<Include>
+			<Category>Game</Category>
+		</Include>
+	</Menu>
+
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>rpd-graphics.directory</Directory>
+		<Include>
+			<Category>Graphics</Category>
+		</Include>
+	</Menu>
+
+	<Menu>
+		<Name>Network</Name>
+		<Directory>rpd-network.directory</Directory>
+		<Include>
+			<Category>Network</Category>
+		</Include>
+	</Menu>
+
 	<Menu>
 		<Name>Office</Name>
 		<Directory>rpd-office.directory</Directory>
 		<Include>
 			<Category>Office</Category>
 		</Include>
-	</Menu> <!-- End Office -->
+	</Menu>
 
-	<!-- Science -->
 	<Menu>
 		<Name>Science</Name>
 		<Directory>rpd-science.directory</Directory>
 		<Include>
 			<Category>Science</Category>
 		</Include>
-	</Menu> <!-- End Science -->
+	</Menu>
 
-	<!-- System Tools-->
+	<Menu>
+		<Name>Settings</Name>
+		<Directory>rpd-settings.directory</Directory>
+		<Include>
+			<Category>Settings</Category>
+		</Include>
+	</Menu>
+
 	<Menu>
 		<Name>System</Name>
 		<Directory>rpd-system-tools.directory</Directory>
 		<Include>
 			<Category>System</Category>
 		</Include>
-	</Menu>	 <!-- End System Tools -->
+	</Menu>
+
+	<Menu>
+		<Name>Utility</Name>
+		<Directory>rpd-utility.directory</Directory>
+		<Include>
+			<Category>Utility</Category>
+		</Include>
+	</Menu>
+
+	<Menu>
+		<Name>Help</Name>
+		<Directory>rpd-help.directory</Directory>
+		<Include>
+			<Category>Help</Category>
+		</Include>
+	</Menu>
 
 	<Menu>
 		<Name>Other</Name>
@@ -111,29 +117,10 @@
 			<And>
 			</And>
 		</Include>
-		</Menu> <!-- End Other -->
-
-
-	<!-- Help -->
-	<Menu>
-		<Name>Help</Name>
-		<Directory>rpd-help.directory</Directory>
-		<Include>
-			<Category>Help</Category>
-		</Include>
-	</Menu>	 <!-- End System Tools -->
-
-	<Menu>
-		<Name>Settings</Name>
-		<Directory>rpd-settings.directory</Directory>
-		<Include>
-			<Category>Settings</Category>
-		</Include>
-	</Menu> <!-- End Settings -->
+	</Menu>
 
 	<Include>
-		<Filename>gui-runcmd.desktop</Filename>
-		<Filename>pishutdown.desktop</Filename>
+		<Category>Applications</Category>
 	</Include>
 
 	<Layout>
@@ -148,13 +135,13 @@
 		<Menuname>Other</Menuname>
 		<Menuname>System</Menuname>
 		<Menuname>Utility</Menuname>
-		<Merge type="files"/>
 		<Merge type="menus"/>
 		<Separator/>
 		<Menuname>Help</Menuname>
 		<Separator/>
 		<Menuname>Settings</Menuname>
 		<Separator/>
+		<Merge type="files"/>
 		<Filename>gui-runcmd.desktop</Filename>
 		<Separator/>
 		<Filename>pishutdown.desktop</Filename>
