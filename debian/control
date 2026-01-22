@@ -41,7 +41,7 @@ Description: Raspberry Pi Desktop theme packages
 
 Package: rpd-preferences
 Architecture: any
-Recommends: ${misc:Depends}, rpcc, pipanel, rc-gui, raindrop, rasputin, rpinters, rp-prefapps, cups, cups-pk-helper, pi-printer-support
+Recommends: ${misc:Depends}, rpcc, pipanel, rc-gui, raindrop, rasputin, rpinters, rp-prefapps, cups, cups-pk-helper, pi-printer-support, merp
 Description: Raspberry Pi Desktop preference applications
  Preference applications for Raspberry Pi Desktop
 
@@ -49,7 +49,7 @@ Package: rpd-utilities
 Architecture: any
 Recommends: ${misc:Depends}, agnostics, rp-bookshelf, mousepad, eom, piclone, lxtask, galculator, xarchiver,
  evince, rpi-connect, rpi-imager, pi-package, piwiz, hunspell-en-gb, hyphen-en-gb, wamerican, wbritish,
- rpi-userguide, alacarte
+ rpi-userguide
 Description: Raspberry Pi Desktop utility applications
  Utility applications for Raspberry Pi Desktop
 
