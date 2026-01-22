@@ -1,4 +1,6 @@
 [Desktop Entry]
+Type=Directory
+Icon=applications-other
 Name=Applications
 Name[af]=Toepassings
 Name[ar]=التّطبيقات
@@ -195,5 +197,3 @@ Comment[xh]=Iinkqubo
 Comment[zh_CN]=应用程序
 Comment[zh_HK]=應用程式
 Comment[zh_TW]=應用程式
-Icon=applications-other
-Type=Directory

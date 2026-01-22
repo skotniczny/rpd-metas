@@ -1,4 +1,6 @@
 [Desktop Entry]
+Type=Directory
+Icon=applications-system
 Name=System Tools
 Name[af]=Stelselgereedskap
 Name[ar]=أدوات النّظام
@@ -189,5 +191,3 @@ Comment[xh]=Umiselo-nkqubo lwendlela emisiweyo kunye nokuhlola
 Comment[zh_CN]=系统配置和监视
 Comment[zh_HK]=系統配置及監察
 Comment[zh_TW]=系統配置及監察
-Icon=applications-system
-Type=Directory

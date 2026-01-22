@@ -1,4 +1,6 @@
 [Desktop Entry]
+Type=Directory
+Icon=applications-games
 Name=Games
 Name[af]=Speletjies
 Name[ar]=الألعاب
@@ -193,5 +195,3 @@ Comment[xh]=Imidlalo nokuzihlekisa
 Comment[zh_CN]=游戏和休闲
 Comment[zh_HK]=遊戲及娛樂
 Comment[zh_TW]=遊戲及娛樂
-Icon=applications-games
-Type=Directory

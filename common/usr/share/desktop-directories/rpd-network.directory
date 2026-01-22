@@ -1,4 +1,6 @@
 [Desktop Entry]
+Type=Directory
+Icon=applications-internet
 Name=Internet
 Name[af]=Internet
 Name[ar]=الإنترنت
@@ -192,5 +194,3 @@ Comment[xh]=Iinkqubo zokufikelela kwi-Intanethi ezinjenge-web ne-imeyile
 Comment[zh_CN]=访问互联网如网页和电子邮件所用的程序，
 Comment[zh_HK]=如瀏覽網頁及收發電郵等網絡軟件
 Comment[zh_TW]=如瀏覽網頁及收發電郵等網路軟體
-Icon=applications-internet
-Type=Directory

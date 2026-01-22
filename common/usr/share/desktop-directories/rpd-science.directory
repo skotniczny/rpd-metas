@@ -1,4 +1,7 @@
 [Desktop Entry]
+Type=Directory
+Icon=applications-science
+Name=Science
 Name[ar]=العلوم
 Name[be]=Навука
 Name[bn]=বিজ্ঞান
@@ -45,7 +48,7 @@ Name[uk]=Наука
 Name[vi]=Khoa học
 Name[zh_CN]=科学类
 Name[zh_TW]=科學
-Name=Science
+Comment=Scientific applications
 Comment[ca]=Aplicacions científiques
 Comment[de]=Wissenschaftliche Anwendungen
 Comment[eo]=Sciencaj programoj
@@ -54,7 +57,3 @@ Comment[fr]=Applications scientifiques
 Comment[nl]=Wetenschappelijke toepassingen
 Comment[pt]=Aplicações Científicas
 Comment[zh_CN]=科学类应用程序
-Comment=Scientific applications
-# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-Icon=applications-science
-Type=Directory

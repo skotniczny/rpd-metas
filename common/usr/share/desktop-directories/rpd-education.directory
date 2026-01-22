@@ -1,4 +1,6 @@
 [Desktop Entry]
+Type=Directory
+Icon=applications-engineering
 Name=Education
 Name[af]=Opvoeding
 Name[ar]=التّعليم
@@ -95,5 +97,3 @@ Name[vi]=Giáo dục
 Name[zh_CN]=教育
 Name[zh_HK]=教育
 Name[zh_TW]=教育
-Icon=applications-engineering
-Type=Directory

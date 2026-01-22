@@ -1,16 +1,12 @@
-<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
- "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<?xml version="1.0"?>
 
 <Menu>
 
 	<Name>Applications</Name>
 	<Directory>rpd-applications.directory</Directory>
 
-	<!-- Read standard .directory and .desktop file locations -->
 	<DefaultAppDirs/>
 	<DefaultDirectoryDirs/>
-
-	<!-- Read in overrides and child menus from applications-merged/ -->
 	<DefaultMergeDirs/>
 
 	<Menu>
@@ -147,4 +143,4 @@
 		<Filename>pishutdown.desktop</Filename>
 	</Layout>
 
-</Menu> <!-- End Applications -->
+</Menu>

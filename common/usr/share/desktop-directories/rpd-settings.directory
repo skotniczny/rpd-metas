@@ -1,4 +1,6 @@
 [Desktop Entry]
+Type=Directory
+Icon=preferences-desktop
 Name=Preferences
 Name[af]=Voorkeure
 Name[ar]=التّفضيلات
@@ -191,5 +193,3 @@ Comment[vi]=Tùy thích cá nhân
 Comment[zh_CN]=个人首选项
 Comment[zh_HK]=個人偏好設定
 Comment[zh_TW]=個人偏好設定
-Icon=preferences-desktop
-Type=Directory
