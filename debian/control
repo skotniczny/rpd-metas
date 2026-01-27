@@ -9,7 +9,7 @@ Package: rpd-common
 Architecture: any
 Depends: ${misc:Depends}, lxsession, lightdm, pcmanfm, lxterminal, pi-greeter, rpd-plym-splash,
  polkitd, pkexec, pishutdown, libfm-modules, gvfs, gvfs-backends, gvfs-fuse, qt5ct, qt5-style-plugins,
- gtk-nop, gui-pkinst, pprompt, rfkill, mate-polkit-bin, gnome-keyring, desktop-file-utils, raspi-config,
+ rpi-gui-nop, gui-pkinst, pprompt, rfkill, mate-polkit-bin, gnome-keyring, desktop-file-utils, raspi-config,
  pipewire, pipewire-pulse, wireplumber, libspa-0.2-bluetooth, network-manager, wpasupplicant,
  firmware-brcm80211, nfs-common, fonts-droid-fallback, fonts-noto-mono, qt6ct, gui-runcmd
 Conflicts: raspberrypi-ui-mods, lxde, lxpanel
