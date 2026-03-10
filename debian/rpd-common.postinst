@@ -6,7 +6,8 @@ case "${1}" in
   configure)
     if [ -z "$2" ]; then
       raspi-config nonint do_wayland W1
-      raspi-config nonint do_boot_behaviour B4
+      raspi-config nonint do_boot_target B2
+      raspi-config nonint do_autologin 0
       update-desktop-database /usr/share/raspi-ui-overrides/applications/
     fi
     ;;
