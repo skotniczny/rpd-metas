@@ -1,6 +1,6 @@
 rpd-metas (1.16) trixie; urgency=medium
 
-  * Default to autologin disabled
+  * Fix for Chromium password; new menu plugin and editor
 
  -- Simon Long <simon@raspberrypi.com>  Tue, 10 Mar 2026 07:19:10 +0000
 
